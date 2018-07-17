@@ -1,0 +1,26 @@
+{
+  "name": "cde",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng build -w",
+    "build": "ng build --watch",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "serve": "ng serve --port 4300"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "4.13.3",
+    "fs": "0.0.2",
+    "image-size": "^0.6.3",
+    "mongodb": "^2.2.33",
+    "nodemon": "^1.18.2",
+    "rimraf": "^2.6.2"
+  }
+}
